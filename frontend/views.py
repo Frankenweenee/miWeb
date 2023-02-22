@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 
 
-def home(request):
+def index(request):
     return render(request,'frontend/index.html')
 
 def portfolio(request):
