@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #my apps
-    'frontend',
+    'frontend.apps.RenderConfig',
     'contacto',
 
 ]
